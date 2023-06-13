@@ -1,4 +1,4 @@
-# Agrupamento de Clientes de Cartões de Crédito
+# Clusterização de Clientes de Cartões de Crédito
 
 ![01 21 19_Hero_1360x646-1024x486 (1)](https://user-images.githubusercontent.com/108491443/214587134-d211276e-c5ce-47d2-8736-bc65ea05729f.png)
 
