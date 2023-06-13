@@ -1,6 +1,6 @@
 # Clusterização de Clientes de Cartões de Crédito
 
-![01 21 19_Hero_1360x646-1024x486 (1)](https://user-images.githubusercontent.com/108491443/214587134-d211276e-c5ce-47d2-8736-bc65ea05729f.png)
+![capa_ml_c](https://github.com/Cassiophysics/ML_clustering_credit_card/assets/108491443/c9ce7ac3-d02d-4913-a148-5b5b3f485004)
 
 Este projeto tem a finalidade de agrupar titulares de cartões de crédito com características semelhantes entre si e  distintas entre outros grupos com base em seus hábitos de compra, limites de crédito, saldos e outros fatores financeiros. Essa segmentação auxilia empresas na tomada de decisões estratégicas para marketing de maneira fundamentada.
 
