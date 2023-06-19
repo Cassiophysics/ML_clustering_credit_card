@@ -2,6 +2,8 @@
 
 ![capa_ml_c](https://github.com/Cassiophysics/ML_clustering_credit_card/assets/108491443/c9ce7ac3-d02d-4913-a148-5b5b3f485004)
 
+## Teste você mesmo o modelo: [🎯 Classificador de Clientes](https://cassiophysics-ml-clustering-credit-card-streamlitapp-i9mqcy.streamlit.app/)
+
 Este projeto tem a finalidade de agrupar titulares de cartões de crédito com características semelhantes entre si e  distintas entre outros grupos com base em seus hábitos de compra, limites de crédito, saldos e outros fatores financeiros. Essa segmentação auxilia empresas na tomada de decisões estratégicas para marketing de maneira fundamentada.
 
 Para esta tarefa, foi usado um conjunto de dados histórico com as informações de uso do cartão de crédito de diversos clientes ativos durante o período de 6 meses. Tal amostra foi encontrada no site [KAGGLE](https://www.kaggle.com/datasets/arjunbhasin2013/ccdata).
@@ -58,10 +60,45 @@ Uma vez que o algoritmo e o números de clusters foram definidos, agora é hora 
 
 O resultado ficou como:
 
-- **Cliente 0:** A principal característica que difere este grupo dos demais é que possuem um alto saldo com atualização frequente, maior limite de cartão de crédito, realizam uma quantidade de compras muito acima dos outros e com alta frequência, tanto em compras feitas de uma só vez como em compras parceladas e são os que mais fazem pagamento integral.
+ - **Cliente 0**: Cliente Premium
 
-- **Cliente 1:** O destaque desse grupo é que eles têm o menor limite de crédito e saldo entre todos, no entanto, eles costumam manter seu saldo atualizado frequentemente, pois são o segundo grupo que mais faz compras e estas compras são frequentemente parceladas. Eles também são os que possuem a maior quantidade de pagamentos mínimos, mas também realizam o pagamento integral acima da média.
+Possui alto saldo com atualização frequente;
 
-- **Cliente 2:** O que chama atenção neste grupo é que apesar de possuírem um saldo acima da média e o segundo maior em limite de crédito entre os grupos, são os que têm o saldo atualizado com a menor frequência, pois não realizam compras de maneira geral. Contudo, são os que mais utilizam dinheiro adiantado de forma disparada comparado com os demais e ainda realizam o pagamento de forma integral muito abaixo da média.
+Tem maior limite de cartão de crédito;
+
+Realiza quantidade de compras acima dos outros grupos;
+
+Realiza compras tanto em uma só vez como parceladas;
+
+Faz pagamento integral.
+
+- **Cliente 1**: Cliente de Baixo Limite
+
+Possui menor limite de crédito e saldo entre os grupos;
+
+Mantém saldo atualizado frequentemente;
+
+Realiza compras frequentemente parceladas;
+
+Tem maior quantidade de pagamentos mínimos;
+
+Realiza pagamento integral acima da média.
+
+- **Cliente 2**: Cliente com Poucas Compras
+
+Possui saldo acima da média e segundo maior limite de crédito entre os grupos;
+
+Atualiza o saldo com menor frequência;
+
+Realiza poucas compras em geral;
+
+Utiliza dinheiro adiantado de forma significativa;
+
+Realiza pagamento integral abaixo da média.
 
 Este agrupamento auxilia de forma embasada as empresas a identificarem categorias diferentes de clientes e a partir disso ajustar estratégias de marketing adequadas para cada caso em específico.
+
+## 5. Classificação dos Clusters
+
+Foram testados diversos modelos para a classificação dos clientes de cartão de crédito, e o modelo LGBMClassifier apresentou os melhores resultados. Em seguida, realizou-se uma busca pelos melhores hiperparâmetros utilizando o GridSearchCV. O deploy desse modelo foi feito no Streamlit, que oferece uma interface gráfica intuitiva para facilitar a utilização do modelo.
+
