@@ -62,39 +62,39 @@ O resultado ficou como:
 
  - **Cliente 0**: Cliente Premium
 
-Possui alto saldo com atualização frequente;
+     Possui alto saldo com atualização frequente;
 
-Tem maior limite de cartão de crédito;
-
-Realiza quantidade de compras acima dos outros grupos;
-
-Realiza compras tanto em uma só vez como parceladas;
-
-Faz pagamento integral.
+     Tem maior limite de cartão de crédito;
+     
+     Realiza quantidade de compras acima dos outros grupos;
+     
+     Realiza compras tanto em uma só vez como parceladas;
+     
+     Faz pagamento integral.
 
 - **Cliente 1**: Cliente de Baixo Limite
 
-Possui menor limite de crédito e saldo entre os grupos;
-
-Mantém saldo atualizado frequentemente;
-
-Realiza compras frequentemente parceladas;
-
-Tem maior quantidade de pagamentos mínimos;
-
-Realiza pagamento integral acima da média.
+    Possui menor limite de crédito e saldo entre os grupos;
+    
+    Mantém saldo atualizado frequentemente;
+    
+    Realiza compras frequentemente parceladas;
+    
+    Tem maior quantidade de pagamentos mínimos;
+    
+    Realiza pagamento integral acima da média.
 
 - **Cliente 2**: Cliente com Poucas Compras
 
-Possui saldo acima da média e segundo maior limite de crédito entre os grupos;
-
-Atualiza o saldo com menor frequência;
-
-Realiza poucas compras em geral;
-
-Utiliza dinheiro adiantado de forma significativa;
-
-Realiza pagamento integral abaixo da média.
+    Possui saldo acima da média e segundo maior limite de crédito entre os grupos;
+    
+    Atualiza o saldo com menor frequência;
+    
+    Realiza poucas compras em geral;
+    
+    Utiliza dinheiro adiantado de forma significativa;
+    
+    Realiza pagamento integral abaixo da média.
 
 Este agrupamento auxilia de forma embasada as empresas a identificarem categorias diferentes de clientes e a partir disso ajustar estratégias de marketing adequadas para cada caso em específico.
 
